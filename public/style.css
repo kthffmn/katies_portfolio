@@ -6,38 +6,63 @@ body {
 	background-color: #568EA9;
 	font-size: 1.5em;
 	line-height: 1.4em;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
-	text-align: center;
+	margin-top: 3%;
+	text-align: left;
 	font-family: 'Lobster', serif;
 	color: white;
 	background-color: #568EA9;
+	font-size: 2em;
+	margin-left: 5%;
 }
 
-.blue>i { color: #568EA9; }
+h2 {
+	text-align: left;
+	font-family: 'Lobster', serif;
+	color: #4D8098;
+	font-size: 1.5em;
+}
 
-.white>i { color: white; }
+.black > i { color: #585858; }
+.white > i { color: white; }
+
+A:link {text-decoration: none; color: #888888}
+A:visited {text-decoration: none; color: #484848}
+A:active {text-decoration: none; color: #484848}
+A:hover {text-decoration: none; color: #484848}
 
 .links {
 	background-color: #568EA9;
-	text-align: center;
+	text-align: right;
+	margin-right: 5%;
 }
 
 .about {
 	background-color: white;
-	color: #568EA9;
+	color: #686868;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+	padding: 2%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
 .projects {
 	background-color: white;
-	color: #568EA9;
+	color: #888888;
 	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+	padding: 2%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }
 
-p {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
-	text-align: center;
-}
+hover #4d8098
+unclicked #93b7c8
+
