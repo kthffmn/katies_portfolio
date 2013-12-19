@@ -10,34 +10,38 @@ body {
 }
 
 h1 {
-	margin-top: 3%;
 	text-align: left;
 	font-family: 'Lobster', serif;
 	color: white;
 	background-color: #568EA9;
 	font-size: 2em;
-	margin-left: 5%;
+	margin-left: 8%;
+	display: inline;
 }
 
 h2 {
 	text-align: left;
 	font-family: 'Lobster', serif;
 	color: #4D8098;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 .black > i { color: #585858; }
 .white > i { color: white; }
+.blue > i { color: #568EA9; }
 
 A:link {text-decoration: none; color: #888888}
 A:visited {text-decoration: none; color: #484848}
 A:active {text-decoration: none; color: #484848}
 A:hover {text-decoration: none; color: #484848}
 
+.header {
+	margin-top: 3%;
+}
 .links {
 	background-color: #568EA9;
-	text-align: right;
-	margin-right: 5%;
+	position: relative;
+	top: 5%;
 }
 
 .about {
