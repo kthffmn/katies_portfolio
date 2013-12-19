@@ -29,6 +29,8 @@ h2 {
 .black > i { color: #585858; }
 .white > i { color: white; }
 .blue > i { color: #568EA9; }
+.dark-gray > i { color: #484848; }
+.light-gray > i { color: #808080; }
 
 A:link {text-decoration: none; color: #888888}
 A:visited {text-decoration: none; color: #484848}
@@ -67,6 +69,15 @@ A:hover {text-decoration: none; color: #484848}
 	border-radius: 15px;
 }
 
-hover #4d8098
-unclicked #93b7c8
+td {
+	text-align:center;
+	background-color: white;
+	width: 9%;
+	font-size: 0.75em;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th {
+	height:15%;
+}
 
