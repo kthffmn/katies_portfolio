@@ -1,84 +1,126 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+/* top right bottom left */
+
 body {
 	color: white;
 	background-color: #568EA9;
 	font-size: 1.5em;
-	line-height: 1.4em;
+	line-height: 1.5em;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
-	text-align: left;
-	font-family: 'Lobster', serif;
 	color: white;
-	background-color: #568EA9;
 	font-size: 2em;
-	margin-left: 8%;
-	display: inline;
 }
 
 h2 {
-	text-align: left;
-	font-family: 'Lobster', serif;
 	color: #4D8098;
 	font-size: 1.3em;
 }
 
-.black > i { color: #585858; }
-.white > i { color: white; }
-.blue > i { color: #568EA9; }
-.dark-gray > i { color: #484848; }
-.light-gray > i { color: #808080; }
+/* colors */
+.white { color: white; }
+.blue { color: #568EA9; }
+.dark-gray { color: #484848; }
+.light-gray { color: #808080; }
+
+/* banner */
+.loveontop {
+	display: block;
+	position: relative;
+	text-align: left;
+	padding: 40px 80px 0px 120px;
+}
+
+/* loveontop a tags */
+.loveontop a {
+	color: white;
+}
+
+.loveontop a:link {
+	color: white;
+}
+.loveontop a:visited {
+  text-decoration:none;
+  color: white;
+}
+
+.loveontop a:hover {
+  text-decoration:none;
+  color: white;
+}
+
+.loveontop a:active {
+	text-decoration:none;
+}
+
+/* content of loveontop */
+.katieyo {
+	display: inline-block;
+}
+
+.links {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/* fonts */
+.lobster {
+	font-family: 'Lobster', serif;
+}
+
+/* links */
 
 A:link {text-decoration: none; color: #888888}
-A:visited {text-decoration: none; color: #484848}
+A:visited {text-decoration: none; color: #888888}
 A:active {text-decoration: none; color: #484848}
 A:hover {text-decoration: none; color: #484848}
 
-.header {
-	margin-top: 3%;
-}
-.links {
-	background-color: #568EA9;
-	position: relative;
-	top: 5%;
-}
-
-.about {
+/* content */
+.rectangle {
 	background-color: white;
 	color: #686868;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 3%;
-	padding: 2%;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
+	text-align: left;
+	margin: 30px 80px 0px 80px;
+	padding: 20px 40px 20px 40px;
 }
 
+/* about */
+.about {
+	
+}
+
+/* about a tags */
+.about a {
+	color: #484848;
+}
+
+.about a:link {
+	color: #484848;
+}
+.about a:visited {
+  text-decoration:none;
+  color: #484848;
+}
+
+.about a:hover {
+  text-decoration:none;
+  color: black;
+}
+
+.about a:active {
+	text-decoration:none;
+  color: black;
+}
+
+/* projects */
 .projects {
-	background-color: white;
-	color: #888888;
-	text-align: center;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 3%;
-	padding: 2%;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	min-width: 760px;
+	margin-top: 40px;
 }
 
-td {
-	text-align:center;
-	background-color: white;
-	width: 9%;
-	font-size: 0.75em;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-th {
-	height:15%;
-}
 
