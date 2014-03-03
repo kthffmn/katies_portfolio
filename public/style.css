@@ -123,4 +123,10 @@ A:hover {text-decoration: none; color: #484848}
 	margin-top: 40px;
 }
 
+.project {
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+}
+
 
