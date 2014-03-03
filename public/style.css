@@ -121,12 +121,28 @@ A:hover {text-decoration: none; color: #484848}
 /* projects */
 .projects {
 	margin-top: 40px;
-}
-
-.project {
-	width: 200px;
-	display: inline-block;
 	text-align: center;
 }
 
+.pro {
+	margin-bottom: 30px;
+	text-align: left;
+	display: block;
+}
 
+.project {
+	width: 230px;
+	text-align: left;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.titlez {
+	font-size: .75em;
+}
+
+.descriptionz {
+/*	display: none;*/
+
+}
