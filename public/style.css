@@ -91,11 +91,6 @@ A:hover {text-decoration: none; color: #484848}
   overflow: hidden;
 }
 
-/* about */
-.about {
-	
-}
-
 /* about a tags */
 .about a {
 	color: #484848;
@@ -123,6 +118,8 @@ A:hover {text-decoration: none; color: #484848}
 .projects {
 	margin-top: 40px;
 	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .pro {
@@ -138,6 +135,7 @@ A:hover {text-decoration: none; color: #484848}
 	text-align: center;
 	margin-bottom: 20px;
 	min-height: 100px;
+	max-height: 300px;
 }
 
 .titlez {
@@ -145,5 +143,23 @@ A:hover {text-decoration: none; color: #484848}
 }
 
 .descriptionz {
-	display: none;*/
+	font-size: .75em;
+	text-align: left;
+	display: none;
 }
+
+.code {
+	text-align: center;
+	display: block;
+}
+
+.downarrow {
+	display: block;
+	border-radius: 5px;
+}
+
+.downarrow:hover {
+	color: white;
+	background-color: #EEEEEE;
+}
+
