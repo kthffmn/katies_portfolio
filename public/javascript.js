@@ -4,15 +4,16 @@ $(document).ready(function(){
 
     if(!$(this).hasClass("chosen")) {
       $(this).addClass("chosen");
-      $(this).text("<i class="fa fa-angle-double-up"></i>");
-      $(this).closest(".descriptionz").show( "slow", function() {
+      var desc = $(this).siblings(".descriptionz");
+      desc.show( "slow", function() {
         // closes show function
       });
+      debugger
     // closes if 
     } else {
       $(this).removeClass("chosen");
-      $(this).text("<i class="fa fa-angle-double-up"></i>");
-      $(this).closest(".descriptionz").hide( "slow", function() {
+      var desc = $(this).siblings(".descriptionz");
+      desc.hide( "slow", function() {
         // closes hide function
       });
     // closes else
