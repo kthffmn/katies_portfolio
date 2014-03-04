@@ -136,6 +136,7 @@ A:hover {text-decoration: none; color: #484848}
 	margin-bottom: 20px;
 	min-height: 100px;
 	max-height: 300px;
+	border-radius: 6px;
 }
 
 .titlez {
@@ -144,7 +145,6 @@ A:hover {text-decoration: none; color: #484848}
 
 .descriptionz {
 	font-size: .75em;
-	text-align: left;
 	display: none;
 }
 
@@ -153,13 +153,25 @@ A:hover {text-decoration: none; color: #484848}
 	display: block;
 }
 
+.code:hover {
+	text-align: center;
+	display: block;
+	color: white;
+}
+
 .downarrow {
 	display: block;
 	border-radius: 5px;
+	font-size: .6em;
+	cursor: pointer;
 }
 
 .downarrow:hover {
 	color: white;
 	background-color: #EEEEEE;
+	cursor: pointer; 
 }
 
+.clickedgrey {
+	background-color: #EEEEEE;
+}
