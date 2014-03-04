@@ -5,20 +5,15 @@ $(document).ready(function(){
     if(!$(this).hasClass("chosen")) {
       $(this).addClass("chosen");
       var desc = $(this).siblings(".descriptionz");
+      // $(this).text("<i class="fa fa-angle-double-up"></i>");
       desc.show( "slow", function() {
-        // closes show function
-      });
-      debugger
-    // closes if 
+      }); 
     } else {
       $(this).removeClass("chosen");
       var desc = $(this).siblings(".descriptionz");
+      // $(this).text("<i class="fa fa-angle-double-down"></i>");
       desc.hide( "slow", function() {
-        // closes hide function
       });
-    // closes else
     }
-  // closes downarrow click function
   });
-// closes document ready
 });
