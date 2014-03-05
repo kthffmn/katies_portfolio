@@ -5,8 +5,8 @@ $(document).ready(function () {
     if (!$(this).hasClass("active")) {
 
       // change less back to more for all .downarrow divs & change more to less for this downarrow
-      $("div.downarrow").text("more");
-      $(this).text("less");
+      $("div.downarrow").html('<i class="fa fa-angle-double-down"></i>');
+      $(this).html('<i class="fa fa-angle-double-up"></i>');
 
       // remove grey background on all .project divs & add grey background to project div
       $("div.project").removeClass("clickedgrey");
@@ -28,7 +28,7 @@ $(document).ready(function () {
     } else if ($(this).hasClass("active")) {
 
       // change less back to more for all .downarrow divs
-      $("div.downarrow").text("more");
+      $("div.downarrow").html('<i class="fa fa-angle-double-down"></i>');
 
       // remove grey background on all .project divs
       $("div.project").removeClass("clickedgrey");
