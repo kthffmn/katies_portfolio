@@ -137,6 +137,8 @@ A:hover {text-decoration: none; color: #484848}
 	min-height: 100px;
 	max-height: 300px;
 	border-radius: 6px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .titlez {
