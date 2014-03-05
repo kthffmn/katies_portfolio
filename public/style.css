@@ -37,15 +37,15 @@ h2 {
 
 /* loveontop a tags */
 .loveontop a {
-	color: white;
+	color: #E0E0E0;
 }
 
 .loveontop a:link {
-	color: white;
+	color: #E0E0E0;
 }
 .loveontop a:visited {
   text-decoration:none;
-  color: white;
+  color: #E0E0E0;
 }
 
 .loveontop a:hover {
