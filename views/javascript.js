@@ -1,4 +1,0 @@
-$(function() {
-  $(".descriptions").appear {
-  });
-});
